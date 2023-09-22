@@ -1,0 +1,38 @@
+public class biodata {
+  public static void main(String[] args) {
+
+  // heading
+  System.out.println("====DATA AKHIR MAHASISWA===");
+
+  // nama mahasiswa
+   String jan = "Adithya Raihan Pratama";
+  System.out.println("NAMA :" + jan);
+ 
+  //nim mhasiswa
+  int nim = 1237050113;
+  System.out.println("NIM :" + nim);
+  
+
+  //nilai tugas
+    int tgs = 90;
+ System.out.println("TUGAS :"+tgs);
+
+
+  //nilai uts
+    int uts = 95;
+  System.out.println("UTS :"+uts);
+
+
+  //nilai uas
+    int uas = 70;
+  System.out.println("UAS :"+uas);
+
+
+  //nilai akhir
+   double nilai_akhir = tgs*0.3 + tgs*0.3 + uas*0.4;
+   System.out.println("NILAI AKHIR:"+nilai_akhir);
+ 
+ 
+     
+  }
+}
